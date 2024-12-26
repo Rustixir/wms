@@ -1,0 +1,20 @@
+{
+  "fa": {
+    "success": "عملیات با موفقیت انجام شد",
+    "wallet_blocked": "کیف پول مورد نظر مسدود شده است",
+    "wallet_insufficient": "موجودی کیف پول کافی نیست",
+    "wallet_not_found": "کیف پول ورد نظر یافت نشد",
+    "internal_server_error": "خطای داخلی سرور",
+    "invalid_request": "درخواست نامعتبر است",
+    "invalid_wallet_id": "آیدی کیف پول مورد نظر نامعتبر است"
+  },
+  "en": {
+    "success": "the operation has been successfully completed.",
+    "wallet_blocked" : "this wallet is blocked",
+    "wallet_insufficient": "insufficient wallet funds",
+    "wallet_not_found": "wallet not found",
+    "internal_server_error": "internal server error",
+    "invalid_request": "invalid request",
+    "invalid_wallet_id": "invalid wallet_id "
+  }
+}

@@ -41,7 +41,7 @@ func (h *DeductFundsHandler) Handle(ctx context.Context, command DeductFundsComm
 		return errors.ErrInsufficientFunds
 	}
 
-	wallet.AddFunds(command.Amount)
+	wallet.DeductFunds(command.Amount)
 	if err = h.walletRepo.UpdateWallet(ctx, wallet); err != nil {
 		slog.Error("DeductFundsHandler.Handle", "error", err)
 		return errors.ErrInternalServerError

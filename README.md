@@ -4,7 +4,7 @@
 
 #### **Overview**
 
-The Wallet Service provides a cloud-native, production-ready API for managing digital wallets. It allows businesses to perform core wallet operations, including wallet creation, fund management, and transaction history retrieval. Built using Hexagonal Architecture, DDD, CQRS, and Golang with Echo, the service is modular and scalable.
+The Wallet Service provides API for managing digital wallets. It allows businesses to perform core wallet operations, including wallet creation, fund management, and transaction history retrieval. Built using Hexagonal Architecture, DDD, CQRS, and Golang with Echo, the service is modular and scalable.
 
 > **Note:** This is an **experimental project** created as an example of how to implement **CQRS** with **Hexagonal Architecture** using Golang. It demonstrates best practices for structuring a domain-driven application in a microservices context.
 
